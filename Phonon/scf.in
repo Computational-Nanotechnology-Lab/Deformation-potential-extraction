@@ -1,0 +1,35 @@
+&control
+    calculation = 'scf'
+    !restart_mode='from_scratch',
+    prefix='nbfesb',
+    pseudo_dir = '../../../../POTENTIALS/ONCV/',
+    outdir='./tmp' 
+/
+&system
+     ibrav= 2, celldm(1)= 11.338400
+     nat=3, ntyp= 3,
+     ecutwfc = 100,
+     nbnd = 30
+/
+&electrons
+    diagonalization = 'cg'
+    mixing_beta =0.3
+    mixing_mode = 'local-TF'
+    conv_thr =  1.0d-012
+/
+&ions
+/
+&cell
+/
+ATOMIC_SPECIES
+Nb  92.906 Nb_ONCV_PBE-1.2.upf
+Fe 55.845  Fe_ONCV_PBE-1.2.upf
+Sb 121.76  Sb_ONCV_PBE-1.2.upf 
+ 
+ATOMIC_POSITIONS (crystal)
+Nb       0.000000000   0.000000000   0.000000000
+Fe       0.250000000   0.250000000   0.250000000
+Sb       0.500000000   0.500000000   0.500000000
+ 
+K_POINTS {automatic}
+20 20 20 0 0 0 

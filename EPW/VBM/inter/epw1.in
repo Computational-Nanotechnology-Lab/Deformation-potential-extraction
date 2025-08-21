@@ -1,0 +1,46 @@
+&inputepw
+
+prefix = 'nbfesb',
+outdir = './tmp'
+dvscf_dir = './save'
+
+elph = .true.
+epwwrite = .true.
+epwread = .false.
+wannierize = .true.
+lpolar = .true.
+vme = 'dipole'
+shortrange = .true.
+
+nbndsub        = 14,
+bands_skipped  = 'exclude_bands = 1:6'
+
+num_iter       = 20000,
+iprint         = 2,
+
+dis_froz_min   = 14,
+dis_froz_max   = 20,
+dis_win_max    = 26,
+wannier_plot= .true.
+lifc        = .false.     ! Do not use external IFC
+asr_typ     = 'simple'    ! Use the simple acoustic sum rule
+use_ws      = .true.      ! Use the optimal Wigner-Seitz cell
+band_plot   = .true. 
+
+efermi_read = .true.
+fermi_energy   = 17.0573,
+
+proj(1) = 'Nb:d'
+proj(2) = 'Fe:d'
+proj(3) = 'Sb:sp3'
+
+prtgkk = .true.
+filqf = 'path3.dat'
+filkf = 'onepoint.dat'
+nk1 = 12
+nk2 = 12
+nk3 = 12
+nq1 = 6
+nq2 = 6
+nq3 = 6
+/

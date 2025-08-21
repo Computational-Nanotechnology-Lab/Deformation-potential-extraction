@@ -1,0 +1,13 @@
+&INPUTPH
+  prefix = 'nbfesb'
+  verbosity = 'high'
+  outdir = './tmp'
+  tr2_ph = 1e-16
+  ldisp = .true.
+  recover = .true.
+  nq1 = 6
+  nq2 = 6
+  nq3 = 6
+  fildyn = 'nbfesb.dyn'
+  fildvscf = 'dvscf'
+/
