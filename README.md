@@ -10,3 +10,5 @@ The steps involved are:
 7) Compute Acoustic deformation potential 
 8) Compute Optical deformation potential 
 9) Compute inter-valley deformation potential 
+
+If you are using this method, please cite our work. 
