@@ -1,6 +1,6 @@
 # Deformation potential extraction formalism
-Method to calculate deformation potentials. 
-Steps involved are:
+This work is done by Dr. Bhawna Sahni under the guidance of Prof. Neophytos Neophytou. Here, we provide the method to compute deformation potentials. 
+The steps involved are:
 1) SCF calculation
 2) NSCF calculation along k-path 
 3) Phonon calculation
