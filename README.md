@@ -12,3 +12,5 @@ The steps involved are:
 9) Compute inter-valley deformation potential 
 
 If you are using this method, please cite our work. 
+"Thermoelectric transport and the role of different scattering processes in the half-Heusler NbFeSb", Materials Horizons 2025, DOI: 10.1039/D5MH00228A
+
