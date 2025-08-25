@@ -9,8 +9,7 @@
 &system
      ibrav= 2, celldm(1)= 11.338400
      nat=3, ntyp= 3,
-     ecutwfc = 60,
-     ecutrho = 480,
+     ecutwfc = 100
      nbnd = 30
 
 /
