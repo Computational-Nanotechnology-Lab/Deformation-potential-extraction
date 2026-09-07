@@ -7,7 +7,7 @@ The steps for computing matrix elements are following:
 3) Phonon calculation (ensure k-points in NSCF and q-points in Phonon calculation are integer multiple of 2) 
 4) EPW calculation: First, reproduce the DFT bands from the Wannier calculation, and then run the EPW calculation by using q-vectors in three different crystallographic directions for intra-valley scattering and q-vector (k-k') for inter-valley scattering.
 5) Extract matrix elements using extract_matrices.sh
-6) Convert g(matrix elements from EPW) to M [𝑔𝜈𝑚⁢𝑛⁡(𝐤,𝐪)= sqrt(ℏ/2⁢𝑚0𝜔𝜈⁢𝐪)𝑀𝜈𝑚⁢𝑛⁡(𝐤,𝐪)] and plot the matrix elements. Check which modes are polar.
+6) Convert g(matrix elements from EPW) to M [𝑔_{𝜈𝑚⁢𝑛}⁡(𝐤,𝐪)= sqrt(ℏ/2⁢𝑚_0𝜔_{𝜈⁢𝐪})𝑀_{𝜈𝑚⁢𝑛}⁡(𝐤,𝐪)] and plot the matrix elements. Check which modes are polar.
 7) Run the EPW calculation with tag "shortrange = .true." to subtract the long-range part of matrix elements. 
 8) Compute the Acoustic deformation potential 
 9) Compute the Optical deformation potential 
