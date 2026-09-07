@@ -1,7 +1,7 @@
 # Deformation potential extraction formalism
 Here, we provide the method to compute the acoustic and optical deformation potentials.
 We used quantum espresso and Electron-Phonon Wannier Package (EPW) for computing the matrix elements. The q-vector paths were calculated manually. 
-The steps involved are:
+The steps for computing matrix elements are following:
 1) SCF (Self-Consistent Field) calculation 
 2) NSCF (Non Self-Consistent Field) calculation along k-path (generate kpoints using kmesh.pl, for e.g. kmesh.pl 6 6 6) 
 3) Phonon calculation (ensure k-points in NSCF and q-points in Phonon calculation are integer multiple of 2) 
